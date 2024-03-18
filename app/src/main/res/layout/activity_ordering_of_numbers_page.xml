@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".Ordering_of_numbers_page">
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:background="#9AAF4C"
+        android:fontFamily="@font/thebomb"
+        android:gravity="center"
+        android:text="Ordering of Numbers"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d2_descending"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="72dp"
+        app:cardBackgroundColor="#d5ecc2"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="140dp"
+                android:layout_height="185dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/descending_order"></pl.droidsonroids.gif.GifImageView>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Descending order"
+                android:textAlignment="center"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d2_ascending"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="72dp"
+        app:cardBackgroundColor="#98ddca"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="140dp"
+                android:layout_height="179dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ascending_order"></pl.droidsonroids.gif.GifImageView>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Ascending order"
+                android:textAlignment="center"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
