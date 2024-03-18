@@ -1,4 +1,6 @@
-# Happy Math (UCCD3223 Mobile Applications Development - Jan Trimester 2024 - Individual practical assignment)
+# Happy Math 
+
+(UCCD3223 Mobile Applications Development - Jan Trimester 2024 - Individual practical assignment)
 
 ## Overview
 Happy Math is a mobile application designed to help children learn fundamental mathematical concepts in an engaging way. 
