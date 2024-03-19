@@ -81,7 +81,7 @@ public class Compare_numbers_page extends AppCompatActivity {
         if ((isGreaterThan && num1 > num2) || (!isGreaterThan && num1 < num2)) {
             // If the user's selection is correct
             score++;
-            Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Correct! Score +1", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show();
         }
