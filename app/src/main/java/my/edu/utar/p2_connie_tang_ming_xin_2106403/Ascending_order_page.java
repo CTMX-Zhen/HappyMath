@@ -126,19 +126,13 @@ public class Ascending_order_page extends AppCompatActivity {
             score++;
             Toast.makeText(this, "Correct! Score +1", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Incorrect! Try again.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show();
         }
 
         totalQuestions++;
         updateScoreText();
         startNewQuestion();
         selectedNumbers.clear(); // Clear selected numbers for the next question
-    }
-
-    private void clearSelection() {
-        currentIndex = 0;
-        ascendingTextView.setText("");
-        Toast.makeText(this, "Please select the numbers in 'Ascending Order!'", Toast.LENGTH_SHORT).show();
     }
 
     private void startNewQuestion() {
