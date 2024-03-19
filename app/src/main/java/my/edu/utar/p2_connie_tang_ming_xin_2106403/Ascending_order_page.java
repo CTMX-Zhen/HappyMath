@@ -95,7 +95,7 @@ public class Ascending_order_page extends AppCompatActivity {
     }
 
     private void handleCardClick(int cardNumber) {
-        int selectedNumber = numbersList.get(cardNumber - 1); // Adjust index to match list
+        int selectedNumber = numbersList.get(cardNumber - 1);
         selectedNumbers.add(selectedNumber);
 
         if (currentIndex == 0) {
@@ -126,7 +126,7 @@ public class Ascending_order_page extends AppCompatActivity {
             score++;
             Toast.makeText(this, "Correct! Score +1", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Incorrect!.", Toast.LENGTH_SHORT).show();
         }
 
         totalQuestions++;
