@@ -125,7 +125,7 @@ public class Descending_order_page extends AppCompatActivity {
             score++;
             Toast.makeText(this, "Correct! Score +1", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Incorrect! Try again.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show();
         }
 
         totalQuestions++;
