@@ -98,7 +98,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="362dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginTop="88dp"
         android:background="#4CAF50"
@@ -114,7 +114,7 @@
 
     <TextView
         android:id="@+id/compare_numbers_questions"
-        android:layout_width="363dp"
+        android:layout_width="match_parent"
         android:layout_height="97dp"
         android:layout_marginTop="252dp"
         android:fontFamily="@font/gandull_matheng_regular"

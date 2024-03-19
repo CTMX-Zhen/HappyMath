@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="362dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginTop="100dp"
         android:background="#4CAF50"
@@ -49,12 +49,11 @@
 
         <pl.droidsonroids.gif.GifImageView
             android:id="@+id/gifImageView"
-            android:layout_width="363dp"
+            android:layout_width="wrap_content"
             android:layout_height="266dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/q1"
             tools:layout_editor_absoluteX="-3dp"
-            tools:layout_editor_absoluteY="172dp">
-        </pl.droidsonroids.gif.GifImageView>
+            tools:layout_editor_absoluteY="172dp"></pl.droidsonroids.gif.GifImageView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

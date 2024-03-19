@@ -33,7 +33,7 @@
 
             <TextView
                 android:id="@+id/d2_a_01"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="@font/gandull_matheng_regular"
@@ -46,7 +46,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="362dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginTop="88dp"
         android:background="#4CAF50"
@@ -131,13 +131,13 @@
         android:layout_height="100dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
-        android:layout_marginEnd="228dp"
         android:layout_marginBottom="60dp"
         app:cardBackgroundColor="#d5ecc2"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toStartOf="@+id/d2_02"
+        app:layout_constraintStart_toEndOf="@+id/d2_01">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -204,9 +204,9 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.722"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toStartOf="@+id/d2_04"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toEndOf="@+id/d2_02">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -230,7 +230,7 @@
 
     <TextView
         android:id="@+id/ascending_answer"
-        android:layout_width="362dp"
+        android:layout_width="match_parent"
         android:layout_height="76dp"
         android:layout_marginTop="252dp"
         android:fontFamily="@font/gandull_matheng_regular"

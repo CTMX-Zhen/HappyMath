@@ -10,7 +10,7 @@
     tools:context=".Composing_numbers_page">
 
     <TextView
-        android:layout_width="362dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginTop="88dp"
         android:background="#4CAF50"
@@ -58,7 +58,7 @@
 
     <TextView
         android:id="@+id/composing_numbers_questions"
-        android:layout_width="362dp"
+        android:layout_width="match_parent"
         android:layout_height="101dp"
         android:layout_marginTop="268dp"
         android:fontFamily="@font/gandull_matheng_regular"
@@ -144,13 +144,15 @@
         android:layout_height="100dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
-        android:layout_marginEnd="228dp"
+        android:layout_marginStart="20dp"
         android:layout_marginBottom="60dp"
         app:cardBackgroundColor="#ffd3b4"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toStartOf="@+id/d3_02"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toEndOf="@+id/d3_01">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -217,9 +219,8 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.722"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toStartOf="@+id/d3_04"
+        app:layout_constraintStart_toEndOf="@+id/d3_02">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -240,6 +241,7 @@
                 android:textStyle="bold"></TextView>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
     <Button
         android:id="@+id/guideline"
         android:layout_width="69dp"
