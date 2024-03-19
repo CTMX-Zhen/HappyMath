@@ -3,7 +3,6 @@ package my.edu.utar.p2_connie_tang_ming_xin_2106403;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +12,6 @@ public class Ordering_of_numbers_page extends AppCompatActivity implements View.
     private CardView cardView1, cardView2;
     private  Class<?> lastVisitedPage = null;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
